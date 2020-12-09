@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #1b1c1d;
+}
+
+.sec1 {
+  padding: 10px;
+}
+
+.sec1 .header {
+  text-align: center;
+}
+
+.sec1 .header h1 {
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.barBox form {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.barBox form input {
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 50px;
+  width: 400px;
+  background-color: antiquewhite;
+  color: #1b1c1d;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.barBox form button {
+  padding: 8px 12px;
+  color: #1b1c1d;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.resultBox {
+  margin-top: 40px;
+}
+
+.resultBox .flexBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resultBox .flexBox .movieResult {
+  margin-top: 8px;
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.resultBox .flexBox2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.resultBox .flexBox2 .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.resultBox .flexBox2 .buttons button {
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 3px;
+  margin-top: 15px;
+  border: 1px solid white;
+  padding: 4px 5px;
+}
+/*# sourceMappingURL=style.css.map */

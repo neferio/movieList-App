@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js">   </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-resource.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Document</title>
+    <base href="/"> 
+</head>
+<body ng-app="app" ng-controller="mainctr">
+    <div class="sec1">
+        <div class="header">
+            
+                <h1>Search Movie</h1>
+            
+        </div>
+    </div>
+
+    
+
+    <my-search-box search-text="movie" result="result" pages="pages"></my-search-box>
+
+
+    <ng-view></ng-view>
+    <!-- <my-search-results is-searching="searching"  search-text="movie" result="result" pages="pages" ></my-search-results> -->
+   
+
+    
+    
+</body>
+<script src="./js/app.js"></script>
+<script src="./js/controllers.js"></script>
+<script src="./js/services.js"></script>
+<script src="./js/directives.js"></script>
+</html>
